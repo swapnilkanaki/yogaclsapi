@@ -1,6 +1,6 @@
 # yogaclsapi
 
-For Createing API use Conplite Django Framework
+For Createing API use Complite Django Framework
 In this one App called (admissionapi) is Create All api like
     - userloginapi                        # for login Check and currasponding Response return
     - userregisterapi                     # for Register New user
