@@ -7,7 +7,7 @@ import json
 
 
 # Create your views here.
-domen="http://127.0.0.1:8000/"
+domen="https://yogaclasses-m9ab.onrender.com/"
 
 
 #Login View api Userd (userloginapi)
