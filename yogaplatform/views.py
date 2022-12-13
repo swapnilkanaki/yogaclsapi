@@ -5,12 +5,16 @@ from admissionapi.models import User,Batches
 import requests
 import json
 
+#bypass
+from django.views.decorators.csrf import csrf_exempt
+
 
 # Create your views here.
 domen="http://3.112.13.233/"
 
 
 #Login View api Userd (userloginapi)
+@csrf_exempt
 def login(request):
     if request.method == 'POST':
         email=request.POST.get('email')
@@ -33,6 +37,7 @@ def login(request):
         return render(request, 'login.html',context) 
    
 #Register New User View api Userd (userregisterapi)
+@csrf_exempt
 def register(request):
         if request.method == 'POST':
             email=request.POST.get('email')
@@ -59,6 +64,7 @@ def register(request):
 
 
 #Addmisson of Yoga Class View api Userd (admissionapi/<int>)
+@csrf_exempt
 def Addmisson(request):
     if request.session.has_key('username'):
         user_id = request.session['userid']
@@ -87,6 +93,7 @@ def Addmisson(request):
         return redirect('login') 
     
 #Logout or End session View
+@csrf_exempt
 def LogOut(request):
     try:
         del request.session['userid']
