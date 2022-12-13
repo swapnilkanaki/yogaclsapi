@@ -4,6 +4,7 @@
 ####- admissionapi app
 
 (admissionapi) app is mainly create api's ;
+
 	- userloginapi
 - It Checks Login and Currasponding Response return
 - it takes {email,password} in POST
@@ -14,12 +15,15 @@
 - it takes {name,age,email,mobile,password} in POST
 
 
+
 	- admissionapi/<int>
 - It addmission in yoga class or book batch
 - it takes api with < user_id> , {date,batch} in POST
 
 
 	- completepaymentapi<int>/<str>
+	
+	
 - It payment api
 - it takes api with < user_id>/< date> in POST
 
