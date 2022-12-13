@@ -25,7 +25,7 @@
 
  
 Database :
-![]([https://github.com/swapnilkanaki/apiyogaclass/blob/main/login.jpeg](https://github.com/swapnilkanaki/apiyogaclass/blob/master/database.jpeg))
+![]([https://github.com/swapnilkanaki/yogaclsapi/blob/main/database.jpeg))
 
 
 ####- yogaplatform app
@@ -39,13 +39,13 @@ domain="http://127.0.0.1:8000/"+(api's)
 ```
 Image:
 Login:-
-![](https://github.com/swapnilkanaki/apiyogaclass/blob/main/login.jpeg)
+![](https://github.com/swapnilkanaki/yogaclsapi/blob/main/login.jpeg)
 
 Register:-
-![](https://github.com/swapnilkanaki/apiyogaclass/blob/main/register.jpeg)
+![](https://github.com/swapnilkanaki/yogaclsapi/blob/main/register.jpeg)
 
 addmission:-
-![](https://github.com/swapnilkanaki/apiyogaclass/blob/main/addmission.jpeg)
+![](https://github.com/swapnilkanaki/yogaclsapi/blob/main/addmission.jpeg)
 
 For Createing API use Complite Django Framework
 In this one App called (admissionapi) is Create All api like
