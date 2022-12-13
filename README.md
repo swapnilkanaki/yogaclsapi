@@ -25,6 +25,7 @@
 
  
 Database :
+	
 ![]([https://github.com/swapnilkanaki/yogaclsapi/blob/main/database.jpeg))
 
 
@@ -38,9 +39,10 @@ Database :
 domain="http://127.0.0.1:8000/"+(api's)
 ```
 Image:
+	
 Database :
-
-![]([https://github.com/swapnilkanaki/yogaclsapi/blob/main/database.jpeg))
+Database:-
+![](https://github.com/swapnilkanaki/yogaclsapi/blob/main/database.jpeg)
 
 
 Login:-
