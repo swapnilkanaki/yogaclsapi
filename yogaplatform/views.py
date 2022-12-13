@@ -34,7 +34,6 @@ def login(request):
    
 #Register New User View api Userd (userregisterapi)
 def register(request):
-    if request.session.has_key('username'):
         if request.method == 'POST':
             email=request.POST.get('email')
             password=request.POST.get('password')
@@ -57,8 +56,6 @@ def register(request):
         else:
             context = {"loginForm":"loginForm"}    
             return render(request, 'register.html',context)
-    else:
-        return redirect('login') 
 
 
 #Addmisson of Yoga Class View api Userd (admissionapi/<int>)
@@ -92,7 +89,7 @@ def Addmisson(request):
 #Logout or End session View
 def LogOut(request):
     try:
-        del request.session['user_id']
+        del request.session['userid']
         del request.session['username']
         return redirect('login')
     except KeyError:

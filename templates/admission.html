@@ -12,26 +12,22 @@
 
 <body>
     
-    <div class="text-center btn-outline-success m-3">
+    <div class="btn-outline-success m-3">
         
         <div class="form-group row">
-            <div class="col-10"><h3 class="align-items-center"> <u>{{user_name}}</u><a> </a> <a> </a> <a> </a>
-            </h3></div>
-            <div class="col-2">
-                <ul class="nav nav-treeview">
-                    <li class="nav-item" >
-                      <a href="{% url 'logout' %}" class="nav-link">  
-                        <i class="fas fa-sign-out-alt nav-icon"></i>
-                      <p>Logout</p>
-                      </a>
-                    </li>
-                </ul>
+            <div class="col-10">
+              <h3 class="align-items-center"> {{user_name}}</h3>
+            </div>
+            <div class="col-1" >
+                <a href="{% url 'logout' %}"  class=" btn btn-primary" style="height:40px">  
+                  Logout
+                </a>
             </div>
         </div>
     </div>
 
 
-    <section class="content">
+    <section class="">
         <div class="container-fluid">
           <div class="card default-card">
       
@@ -93,11 +89,6 @@
                           
                           <table id="example1" class="table table-bordered table-striped table-hover">
                             <thead>
-                              <tr>
-                                <th></th>
-                                <th></th>
-                                <th></th>
-                              </tr>
                             </thead>
                             <tbody>
                                 {% for item in batches_data %}
@@ -148,7 +139,7 @@
         /* display: flex; */
         align-items: center;
         /* justi    fy-content: center; */
-        background: rgb(187, 247, 187);
+        background: #9AEBA3;
     }
 
     .content {
