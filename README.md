@@ -38,6 +38,11 @@ Database :
 domain="http://127.0.0.1:8000/"+(api's)
 ```
 Image:
+Database :
+
+![]([https://github.com/swapnilkanaki/yogaclsapi/blob/main/database.jpeg))
+
+
 Login:-
 ![](https://github.com/swapnilkanaki/yogaclsapi/blob/main/login.jpeg)
 
