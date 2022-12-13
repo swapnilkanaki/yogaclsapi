@@ -86,6 +86,7 @@ def AdmissionAPI(request,id):
     if request.method == 'POST':
         context={"msg":"","status":True,"id":None}
         serializer = BatchesSerializer(data = request.data)
+        print(request.data)
         month=request.data['date'][:-2]
         if not Batches.objects.filter(batches_id=id,date__startswith=month):
             if serializer.is_valid():
